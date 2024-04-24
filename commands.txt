@@ -1,0 +1,10 @@
+Fetch git repo:
+
+git clone https://github.com/AnmolSahu24/my-portfolio.git
+
+To create docker image 
+docker image build -t myport:latest .
+
+To run docker image
+docker run -p 443:3000 -d myport
+
