@@ -1,6 +1,5 @@
 ##Portfolio Website of Anmol Sahu
 
-scp -i anmol-mumbai.pem dev-portfolio.zip ec2-user@ec2-13-126-172-234.ap-south-1.compute.amazonaws.com:~/.
 
 # Install dependencies
 $ npm install --legacy-peer-deps
