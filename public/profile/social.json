@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/anmolsahu09/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/AnmolSahu24"
+        },
+        {
+            "network" : "email",
+            "href": "anmolsahu26@gmail.com"
+        }
+    ]
+}
