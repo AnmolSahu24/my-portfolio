@@ -1,0 +1,61 @@
+{
+    "experiences": [
+        {
+            "title": "Site Reliability Engineer - I ",
+            "subtitle": "Zynga Game Network India",
+            "workType": "Full-time",
+            "workDescription": [
+                "Daily Task includes followings :\n\n\nParticipate on 24/7 rotaional on-call, followed the sun model",
+                "Handled alerts of Zynga and it’s associated games with their related service and Take-two Interactive’s system and Network alerts at same time during On-call shift",
+                "Troubleshoot production, stage server errors during the on-call. Mainly in Linux environment of CentOs, etc. Sometimes escalated to POC of games and coordinate with them to resolve the alerts. (With the help of PagerDuty)",
+                "AWS Cloud maintenance for the partner games teams in order to make instances and node-pool reliable & robust",
+                "Automated the recurring alerts with the StackStorm using Python Scripting. Hence, mostly repetitive alerts where are handled by the StackStorm itself.",
+                "Help and support partner game teams with AWS resources uptime during release such as modification and upgradation of resources like AWS EC2, S3, EBS,Route53,ASG,ELB and ECR.",
+                "Used Chef to make the automation which helps partner game teams to increase there productivity of development cycle.",
+                "Used Jenkins Pipeline to effectively replace bad node with the new one, replacing node of membase and couchbase to keep Uptime.",
+                "Configured Nagios for node-pools and bring under the scope of monitoring of SRE",
+                "Used DataDog, CloudWatch & Grafana and Internal monitoring application for monitoring various internal services based on various metrics.",
+                "Maintaining documentation, playbook and records of changes, troubleshooting steps and steps to accomplish certain tasks.",
+                "Dedicated Projects :\nCreated a Dashboard for SRE team to coordinate with the USA/UK/BLR team and other partner teams to support and help them to achieve their respective goals.",
+                "Created Interactive and attractive UI with HTML,CSS,Bootstrap,JS to display the text and information.\nUsed Node.js runtime environment and Express.js as the Backend framework to host the application.Also, Containerise the application with Docker.",
+                "Used Python Script to Automate the CI/CD process from pushing the code to Github repo to Docker and then finally AWS EC2 instance.",
+                "Integrated the PagerDuty API to fetch the details of SRE members and their on-call availability, alerts, contact details, etc. in-order to help partner teams to connect and coordinate with the SRE.",
+                "SRE dashboard helps to coordinate with internal SRE team from global location and external partner teams during events i.e change of on-call shifts, during escalations, and some unexpected events."
+
+            ],
+            "dateText": "08/2022 – Present"
+        },
+        {
+            "title": "DevOps Engineer",
+            "subtitle": "LeucineTech Pvt. Ltd.",
+            "workType": "Full-time",
+            "workDescription": [
+                "Deploy Application in different environment using python script over the QA and Staged servers.",
+                "Created the CI/CD pipeline for various task i.e. Deployment, remove deployment, backups,redeployment, etc. using *Jenkins*",
+                "Created CI/CD for test cases created by QA team for automation testing of the application and maintained the allure reports on AWS S3 with the help of *GitHub Actions*.",
+                "Exposure of AWS services i.e. EC2, S3, and Route53.Exposure of AWS services i.e. EC2, S3, and Route53.",
+                "Dockerise the application and its different components using *Docker compose & Docker file*.",
+                "Automate the daily tasks i.e. Backup, API monitoring, cronjobs, etc. using *Shell* scripting.",
+                "Automate the task of downloading & manipulating file and logs using *Python* Scripting.",
+                "Created monitoring and alerts for the QA, Stage and UAT deployment using *new relic*."
+            ],
+            "dateText": "01/2022 – 07/2022"
+        },
+        {
+            "title": "Software Intern",
+            "subtitle": "Cogno AI (Exotel)",
+            "workType": "Internship",
+            "workDescription": [
+                "Software Intern for the Product of Cogno AI i.e CoBrowsing, ChatBot, etc.",
+                "Automate the monotonous test cases and increase the productivity of QA team for products i.e CoBrowsing, ChatBot, etc.",
+                "Created CI/CD for automation testing of feature before deployment",
+                "Creted CI/CD pipeline to load test using Jmeter",
+                "Co-ordinate with developers to fix the issues/bugs within the sprint.",
+                "Tested the different REST APIs across the product on various measures using POSTMAN, Locust.io",
+                "Implemented automation testing using automation tools i.e. Selenium using Python"
+            ],
+            "dateText": "07/2021 – 01/2022"
+        }
+    ]
+}
+

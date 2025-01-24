@@ -1,0 +1,22 @@
+{
+    "education":[
+        {
+            "title": "Jun 2018 - Jun 2022",
+            "cardTitle": "B.Tech, Information Techology",
+            "cardSubtitle":"Guru Ghasidas University (A Central University), Bilaspur (C.G)",
+            "cardDetailedText": "CGPA - 8.14",
+            "icon" : {
+                "src": "images/education/ggu.png"
+            }
+        },
+        {
+            "title": "Apr 2016",
+            "cardTitle": "High School",
+            "cardSubtitle":"Kendriya Vidyalaya No.1 G.C.F, Jabalpur",
+            "cardDetailedText": "Marks - 75.4%",
+            "icon" : {
+                "src": "images/education/kvs.png"
+            }
+        }
+    ]
+}

@@ -1,19 +1,27 @@
-FROM node:alpine
+# Use a smaller base image
+FROM node:18-alpine AS builder
 
-RUN mkdir /app
+# Set working directory
+WORKDIR /app
 
-WORKDIR '/app'
-
+# Copy only package files first to optimize caching
 COPY package*.json yarn.lock ./
 
+# Install dependencies without unnecessary cache files
+RUN npm install -g npm@10.5.2 && yarn install --frozen-lockfile --production
 
-RUN npm install -g npm@10.5.2
+# Copy application files
+COPY . .
 
-RUN yarn install
+# Use a lightweight production base image
+FROM node:18-alpine AS runtime
 
+WORKDIR /app
 
-COPY . ./
+# Copy only necessary files from builder stage
+COPY --from=builder /app /app
 
 EXPOSE 3000
 
-CMD ["yarn","start"]
+CMD ["yarn", "start"]
+
